@@ -1,0 +1,30 @@
+
+
+h3:hover {
+    font-weight: bold;
+    transition: font-weight 0.3s ease; 
+    color: rgb(80, 38, 14);
+    
+}
+
+
+
+body{
+    background-color: rgb(235, 230, 230);
+}
+
+.imagem-anima:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+
+.imagem-container {
+    display: inline-block; /* Exibe as divs uma ao lado da outra */
+    margin-right: 20px; /* Espaçamento entre as divs */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.imagem-container img {
+    width: 200px; /* Define a largura das imagens */
+}
