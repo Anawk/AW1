@@ -28,3 +28,54 @@ body{
 .imagem-container img {
     width: 200px; /* Define a largura das imagens */
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    /* Centraliza os itens na horizontal */
+    align-items: center;
+    /* Centraliza os itens na vertical */
+    background-color: #fff;
+    /* Cor de fundo do header */
+    padding: 10px;
+    /* Espaçamento interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+}
+
+/* Estilos para a logo */
+.logo {
+    width: 200px;
+    /* Tamanho da imagem */
+    height: auto;
+    /* Altura automática para manter proporções */
+    margin-right: 40px;
+    /* Espaçamento à direita da imagem */
+}
+
+/* Estilos para o menu */
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Exibe os itens lado a lado */
+}
+
+.menu li {
+    margin-right: 20px;
+    /* Espaçamento entre os itens */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+    /* Cor inicial do texto */
+    transition: color 0.2s ease-in-out;
+    /* Transição suave para a cor */
+}
+
+.menu li a:hover {
+    color: #d2a671;
+    /* Cor do texto ao passar o mouse */
+}
